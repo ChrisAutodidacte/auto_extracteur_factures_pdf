@@ -65,7 +65,7 @@ Plutôt que d'utiliser un OCR lourd et fragile, le script s'appuie sur la vision
 
 ```text
 ├── Inbox PDF/                  # 📥 Déposez vos scans de smartphone ici
-│   ├── Scan_Telephone_...pdf   # Fichier de démonstration inclus (7 pages)
+│   ├── Scan_Telephone_...pdf   # Fichier d'exemple inclus (7 pages)
 │   └── Traites/                # 📦 Vos gros PDF traités y sont déplacés automatiquement
 ├── Factures/                   # 📄 Toutes vos factures individuelles découpées et renommées
 ├── Anomalies/                  # ⚠️ Fichiers illisibles ou rejetés pour contrôle manuel
