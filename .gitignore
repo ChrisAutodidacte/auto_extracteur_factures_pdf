@@ -1,0 +1,30 @@
+# Environnement et secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# IDE et OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Fichiers traités lors de l'exécution locale (conserve les dossiers vides via .gitkeep)
+Factures/*
+!Factures/.gitkeep
+Anomalies/*
+!Anomalies/.gitkeep
+Inbox PDF/Traites/*
+!Inbox PDF/Traites/.gitkeep

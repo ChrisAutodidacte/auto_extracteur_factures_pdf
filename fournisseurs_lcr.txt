@@ -1,0 +1,4 @@
+# Liste des fournisseurs regles par prelevement automatique (LCR)
+# Les factures de ces fournisseurs recevront le tag [LCR] dans leur nom de fichier
+Editions du Silence SA
+Logistique & Transport Express
