@@ -71,6 +71,7 @@ Plutôt que d'utiliser un OCR lourd et fragile, le script s'appuie sur la vision
 ├── Anomalies/                  # ⚠️ Fichiers illisibles ou rejetés pour contrôle manuel
 ├── exemples/                   # 🧪 Factures de test individuelles d'origine
 ├── fournisseurs_lcr.txt        # ⚙️ Liste de vos fournisseurs prélevés par LCR
+├── Lancer le traitement.bat    # ⚡ Lanceur en un double-clic (Windows, sans terminal)
 ├── traitement_factures.py      # 🐍 Le script d'automatisation principal
 ├── requirements.txt            # 📦 Dépendances Python
 ├── .env.example                # 🔑 Modèle pour votre clé API Gemini
@@ -114,14 +115,16 @@ GEMINI_API_KEY=votre_cle_api_ici
 
 ---
 
-## ⚡ Utilisation
+## ⚡ Utilisation (En un double-clic !)
 
 1. Déposez votre ou vos fichiers PDF scannés dans le dossier **`Inbox PDF/`** (un scan de test de 7 pages y est déjà présent pour faire vos premiers essais).
 2. Ajustez si besoin la liste de vos fournisseurs prélevés automatiquement dans **`fournisseurs_lcr.txt`**.
-3. Lancez le script :
-```bash
-python traitement_factures.py
-```
+3. **Lancez le traitement :**
+   - **Sous Windows (recommandé pour les pros) :** Double-cliquez simplement sur **`Lancer le traitement.bat`** (aucun terminal à ouvrir ni commande à taper).
+   - **En ligne de commande :**
+     ```bash
+     python traitement_factures.py
+     ```
 4. Ouvrez le dossier **`Factures/`** : tous vos documents individuels sont découpés, renommés et classés !
 
 ---
